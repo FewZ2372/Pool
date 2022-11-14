@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <ProjectOutputs>
@@ -9,16 +8,4 @@
   <ContentFiles />
   <SatelliteDlls />
   <NonRecipeFileRefs />
-=======
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project>
-  <ProjectOutputs>
-    <ProjectOutput>
-      <FullPath>C:\IC\2do Cuatri\Algebra\Parcial 2\AlgebraTP5\Debug\AlgebraTP5.exe</FullPath>
-    </ProjectOutput>
-  </ProjectOutputs>
-  <ContentFiles />
-  <SatelliteDlls />
-  <NonRecipeFileRefs />
->>>>>>> Stashed changes
 </Project>
