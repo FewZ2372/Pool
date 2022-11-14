@@ -1,12 +1,15 @@
 #include "raylib.h"
 
-<<<<<<< HEAD
+
 #include <iostream>
 
 #include "Balls.h"
 #include "Camera.h"
 
+
 using namespace std;
+
+
 
 
 
@@ -63,37 +66,21 @@ int main()
 			}
 		}
 
-
-=======
-int main()
-{
-	InitWindow(900, 900, "pool");
-
-	while (!WindowShouldClose())
-	{
->>>>>>> parent of 5ce15d1 (add table and balls drawings)
 		BeginDrawing();
 		ClearBackground(BLACK);
-		DrawCircle(GetScreenWidth()/2, GetScreenHeight()/2, 10, WHITE);
-
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 5ce15d1 (add table and balls drawings)
-		DrawRectangleLines(150, 50, 600, 800, WHITE);
-
-		DrawCircle(160, 60, 10, WHITE);
-		DrawCircle(GetScreenWidth() / 2, GetScreenHeight() / 2, 10, WHITE);
-		
-<<<<<<< HEAD
 
 		drawTable();
 		drawBalls(ball);
 
-=======
->>>>>>> parent of 5ce15d1 (add table and balls drawings)
-
 		EndDrawing();
 	}
 	return 0;
+
 }
+
+
+
+
+
+
+	

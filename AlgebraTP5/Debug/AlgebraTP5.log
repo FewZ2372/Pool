@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-﻿LINK : fatal error LNK1104: no se puede abrir el archivo 'NODEFAULTLIB.obj'
-=======
-﻿  main.cpp
-  AlgebraTP5.vcxproj -> C:\IC\2do Cuatri\Algebra\Parcial 2\AlgebraTP5\Debug\AlgebraTP5.exe
->>>>>>> parent of 5ce15d1 (add table and balls drawings)
+﻿LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+main.obj : error LNK2019: símbolo externo "void __cdecl drawBalls(struct BALL)" (?drawBalls@@YAXUBALL@@@Z) sin resolver al que se hace referencia en la función _main
+main.obj : error LNK2019: símbolo externo "void __cdecl drawTable(void)" (?drawTable@@YAXXZ) sin resolver al que se hace referencia en la función _main
+C:\IC\2do Cuatri\Algebra\Parcial 2\AlgebraTP5\Debug\AlgebraTP5.exe : fatal error LNK1120: 2 externos sin resolver
