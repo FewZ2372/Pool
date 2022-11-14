@@ -1,2 +1,6 @@
+<<<<<<< HEAD
+﻿LINK : fatal error LNK1104: no se puede abrir el archivo 'NODEFAULTLIB.obj'
+=======
 ﻿  main.cpp
   AlgebraTP5.vcxproj -> C:\IC\2do Cuatri\Algebra\Parcial 2\AlgebraTP5\Debug\AlgebraTP5.exe
+>>>>>>> parent of 5ce15d1 (add table and balls drawings)
