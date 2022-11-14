@@ -10,10 +10,6 @@
 using namespace std;
 
 
-
-
-
-
 int main()
 {
 	//              X       Y    radius  mass
