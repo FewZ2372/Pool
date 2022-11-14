@@ -4,7 +4,7 @@ int main()
 {
 	InitWindow(900, 900, "pool");
 
-	while (true)
+	while (!WindowShouldClose())
 	{
 		BeginDrawing();
 		ClearBackground(BLACK);
@@ -14,8 +14,7 @@ int main()
 
 		DrawCircle(160, 60, 10, WHITE);
 		DrawCircle(GetScreenWidth() / 2, GetScreenHeight() / 2, 10, WHITE);
-		DrawCircle(GetScreenWidth() / 2, GetScreenHeight() / 2, 10, WHITE);
-		DrawCircle(GetScreenWidth() / 2, GetScreenHeight() / 2, 10, WHITE);
+		
 
 		EndDrawing();
 	}
