@@ -1,5 +1,5 @@
 #pragma once
-#include "Balls.h"
+#include "ball.h"
 
 void drawBalls(BALL ball);
 

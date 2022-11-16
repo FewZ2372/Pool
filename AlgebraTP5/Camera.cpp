@@ -1,14 +1,14 @@
 #include "Camera.h"
 
-#include "Balls.h"
+#include "ball.h"
 
 #include "raylib.h"
 
 void drawBalls(BALL ball)
 {
-	DrawCircle((int)ball.x, (int)ball.y, ball.radius, WHITE); // La bola blanca.
-
 	DrawCircle(GetScreenWidth() / 2, 150, 10, RED);
+
+	drawBall(ball);
 }
 
 void drawTable()

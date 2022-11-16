@@ -1,2 +1,4 @@
 ﻿  main.cpp
-  AlgebraTP5.vcxproj -> C:\IC\2do Cuatri\Algebra\Parcial 2\AlgebraTP5\Debug\AlgebraTP5.exe
+C:\Users\mauro\OneDrive\Escritorio\IMAGE CAMPUS\CURSADA\2do año\2C_ Álgebra (recursada)\Pool\AlgebraTP5\main.cpp(16,32): warning C4838: la conversión de 'float' en 'bool' requiere una conversión de restricción
+C:\Users\mauro\OneDrive\Escritorio\IMAGE CAMPUS\CURSADA\2do año\2C_ Álgebra (recursada)\Pool\AlgebraTP5\main.cpp(16,44): warning C4305: 'inicializando': truncamiento de 'float' a 'bool'
+  AlgebraTP5.vcxproj -> C:\Users\mauro\OneDrive\Escritorio\IMAGE CAMPUS\CURSADA\2do año\2C_ Álgebra (recursada)\Pool\Debug\AlgebraTP5.exe
