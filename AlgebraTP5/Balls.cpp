@@ -1,10 +1,7 @@
 ﻿#include "Balls.h"
 
-BALL createBall(float x, float y, float radius, float mass, Color color)
+void createBall(BALL& newBall ,float x, float y, float radius, float mass, int id, Color color)
 {
-	BALL newBall = {};
-
-
 	newBall.position.x = x;
 	newBall.position.y = y;
 
@@ -15,12 +12,10 @@ BALL createBall(float x, float y, float radius, float mass, Color color)
 	newBall.angle = 0.0f;
 	newBall.vectorDirection = {};
 	newBall.speed = {}; // Velocidad establecida por defecto en 0. 
+	newBall.id = id;
 	newBall.color = color;
 
 	newBall.receivedInitialForce = 0.0f;
-
-
-	return newBall;
 }
 
 void updateBall(BALL& ball)
@@ -93,10 +88,9 @@ void updateBall(BALL& ball)
 	}
 }
 
-void setSpeedBall(BALL& ball, Vector2 forceOriginPosition, float force = 0.0f)
+void setSpeedBall(BALL& ball, Vector2 forceOriginPosition, float force)
 {
 	float torque = force * ball.radius; // F�rmula de la fuerza angular: Fuerza inicial * radio. 
-
 
 	ball.inMovement = true;
 	ball.vectorDirection = { forceOriginPosition.x - ball.position.x, forceOriginPosition.y - ball.position.y };

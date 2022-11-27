@@ -5,7 +5,7 @@ PLAYER CreatePlayer()
 	PLAYER P1 = {};
 	P1.rec.x = 0;
 	P1.rec.y = 0;
-	P1.rec.width= 15;
+	P1.rec.width= 40;
 	P1.rec.height = 5;
 
 	P1.origin = {0, P1.rec.height/2};
@@ -25,6 +25,7 @@ void PlayerInput(PLAYER& P1)
 void PlayerMove(PLAYER& P1, BALL& ball1)
 {
 	Vector2 vectorDirection;
+	Vector2 addSpace;
 	float arctan;
 
 	vectorDirection.x = GetMouseX() - ball1.position.x;
@@ -32,6 +33,7 @@ void PlayerMove(PLAYER& P1, BALL& ball1)
 
 	arctan = static_cast<float>(atan(vectorDirection.y / vectorDirection.x));
 	P1.rotation = arctan * 180 / PI;
+	P1.rotation += 180;
 
 	if (vectorDirection.x < 0)
 	{
